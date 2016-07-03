@@ -8,9 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:passmarked/worker-content-links.git"
+    "url": "git@github.org:passmarked/links.git"
   },
   "author": "Passmarked <devops@passmarked.com>",
+  "keywords": [
+    "passmarked",
+    "links",
+    "rules",
+    "pagespeed",
+    "tests",
+    "pagespeed",
+    "content",
+    "performance",
+    "security",
+    "compatibility",
+    "standards"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "async": "^0.9.0",
