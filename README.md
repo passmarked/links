@@ -1,12 +1,10 @@
-# @passmarked/links 
+# @passmarked/links
 
-![NPM](https://img.shields.io/npm/dt/@passmarked/links.svg) [![Build Status](https://travis-ci.org/passmarked/links.svg)](https://travis-ci.org/passmarked/links)
-
-[Passmarked](http://passmarked.com) is a suite of tests that can be run against any page/website to identify issues with parity to most online tools in one package.
+[Passmarked](http://passmarked.com?source=github&repo=links) is a suite of tests that can be run against any page/website to identify issues with parity to most online tools in one package.
 
 The [Terminal Client](http://npmjs.org/package/passmarked) is intended for use by developers to integrate into their workflow/CI servers but also integrate into their own application that might need to test websites and provide realtime feedback.
 
-All of the checks on [Passmarked](http://passmarked.com) can be voted on importance and are [open-sourced](http://github.com/passmarked/suite), to encourage community involvement in fixing and adding new rules. We are building the living Web Standard and love any [contributions](#contributing).
+All of the checks on [Passmarked](http://passmarked.com?source=github&repo=links) can be voted on importance and are [open-sourced](http://github.com/passmarked/suite), to encourage community involvement in fixing and adding new rules. We are building the living Web Standard and love any [contributions](#contributing).
 
 ## Synopsis
 
@@ -18,7 +16,7 @@ The rules checked in this module are:
 
 ## Running
 
-The rules are checked everytime a url is run through Passmarked or our API. To run using the hosted system head to [passmarked.com](http://passmarked.com) or our [Terminal Client](http://npmjs.org/package/passmarked) use:
+The rules are checked everytime a url is run through Passmarked or our API. To run using the hosted system head to [passmarked.com](http://passmarked.com?source=github&repo=links) or our [Terminal Client](http://npmjs.org/package/passmarked) use:
 
 ```bash
 npm install -g passmarked
@@ -101,16 +99,16 @@ npm install
 npm test
 ```
 
-Pull requests have a prerequisite of passing tests. If your contribution is accepted, it will be merged into `develop` (and then `master` after staging tests by the team) which will then be deployed live to [passmarked.com](http://passmarked.com) and on NPM for everyone to download and test.
+Pull requests have a prerequisite of passing tests. If your contribution is accepted, it will be merged into `develop` (and then `master` after staging tests by the team) which will then be deployed live to [passmarked.com](http://passmarked.com?source=github&repo=links) and on NPM for everyone to download and test.
 
 ## About
 
 To learn more visit:
 
-* [Passmarked](http://passmarked.com)
+* [Passmarked](http://passmarked.com?source=github&repo=links)
 * [Terminal Client](https://www.npmjs.com/package/passmarked)
 * [NPM Package](https://www.npmjs.com/package/@passmarked/links)
-* [Slack](http://passmarked.com/chat) - We have a Slack team with all our team and open to anyone using the site to chat and figure out problems. To join head over to [passmarked.com/chat](http://passmarked.com/chat) and request a invite.
+* [Slack](http://passmarked.com/chat?source=github&repo=links) - We have a Slack team with all our team and open to anyone using the site to chat and figure out problems. To join head over to [passmarked.com/chat](http://passmarked.com/chat?source=github&repo=links) and request a invite.
 
 ## License
 
