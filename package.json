@@ -8,21 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.org:passmarked/links.git"
+    "url": "git@github.com:passmarked/links.git"
   },
   "author": "Passmarked <devops@passmarked.com>",
   "keywords": [
-    "passmarked",
     "links",
-    "rules",
-    "pagespeed",
-    "tests",
-    "pagespeed",
-    "content",
-    "performance",
+    "broken",
+    "nonsecure",
+    "link",
+    "urls",
+    "passmarked",
+    "passmark",
     "security",
-    "compatibility",
-    "standards"
+    "standards",
+    "test"
   ],
   "license": "Apache-2.0",
   "dependencies": {
@@ -32,7 +31,8 @@
     "passmarked": "*",
     "string": "^3.0.0",
     "underscore": "^1.8.3",
-    "when": "^3.6.3"
+    "when": "^3.6.3",
+    "yslow": "^3.1.0"
   },
   "devDependencies": {
     "chai": "^1.10.0",
