@@ -1,5 +1,7 @@
 # @passmarked/links
 
+![NPM](https://img.shields.io/npm/dt/@passmarked/links.svg) [![Build Status](https://travis-ci.org/passmarked/links.svg)](https://travis-ci.org/passmarked/links)
+
 [Passmarked](http://passmarked.com?source=github&repo=links) is a suite of tests that can be run against any page/website to identify issues with parity to most online tools in one package.
 
 The [Terminal Client](http://npmjs.org/package/passmarked) is intended for use by developers to integrate into their workflow/CI servers but also integrate into their own application that might need to test websites and provide realtime feedback.
