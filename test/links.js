@@ -277,7 +277,12 @@ describe('links', function() {
     var statusCodes = [];
 
     // loop
-    for(var i = 400; i < 601; i++) { statusCodes.push(i); }
+    for(var i = 400; i < 601; i++) { 
+
+      if(i === 405) continue;
+      statusCodes.push(i); 
+
+    }
 
     async.eachLimit(statusCodes, 1, function(statusCode, cb) {
 
