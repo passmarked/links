@@ -1,5 +1,6 @@
 {
   "key": "content.links",
   "crawl": true,
-  "track": true
+  "track": true,
+  "timeout": true
 }
