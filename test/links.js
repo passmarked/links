@@ -106,7 +106,7 @@ describe('links', function() {
 
       url: 'http://example.com'
 
-    }, { log: { entries: [] } }, '<p><a href="#">TEST</a></p>');
+    }, { log: { entries: [] } }, '<p><a href="#">TEST</a></p></body>');
 
     // execute the items
     testFunc(payload, function(err) {
@@ -138,7 +138,7 @@ describe('links', function() {
 
       url: 'http://example.com'
 
-    }, { log: { entries: [] } }, '<p><a href="javascript:void();">TEST</a></p>');
+    }, { log: { entries: [] } }, '<p><a href="javascript:void();">TEST</a></p></body>');
 
     // execute the items
     testFunc(payload, function(err) {
@@ -170,7 +170,7 @@ describe('links', function() {
 
       url: 'http://example.com'
 
-    }, { log: { entries: [] } }, '<p><a href="test();">TEST</a></p>');
+    }, { log: { entries: [] } }, '<p><a href="test();">TEST</a></p></body>');
 
     // execute the items
     testFunc(payload, function(err) {
@@ -226,7 +226,7 @@ describe('links', function() {
 
           url: 'http://example.com'
 
-        }, { log: { entries: [] } }, '<p><a href="http://localhost:' + serverPort + '/hello">TEST</a></p>');
+        }, { log: { entries: [] } }, '<body><p><a href="http://localhost:' + serverPort + '/hello">TEST</a></p></body>');
 
         // execute the items
         testFunc(payload, function(err) {
@@ -302,7 +302,7 @@ describe('links', function() {
 
           url: 'http://example.com'
 
-        }, { log: { entries: [] } }, '<p><a href="http://localhost:' + serverPort + '/hello">TEST</a></p>');
+        }, { log: { entries: [] } }, '<body><p><a href="http://localhost:' + serverPort + '/hello">TEST</a></p></body>');
 
         // execute the items
         testFunc(payload, function(err) {
