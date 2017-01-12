@@ -277,7 +277,7 @@ describe('links', function() {
     var statusCodes = [];
 
     // loop
-    for(var i = 400; i < 601; i++) { 
+    for(var i = 405; i < 601; i++) { 
 
       if(i === 405) continue;
       statusCodes.push(i); 
