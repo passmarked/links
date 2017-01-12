@@ -1,6 +1,6 @@
 {
   "name": "@passmarked/links",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Rules related to the links/assets on the page",
   "main": "index.js",
   "scripts": {
