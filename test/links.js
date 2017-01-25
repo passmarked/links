@@ -267,7 +267,7 @@ describe('links', function() {
   });
 
   // handle the error output
-  it('Should return a error if the link returns a status between 400 and 600', function(done) {
+  it('Should return a error if the link returns a status between 400 and <500', function(done) {
 
     // we are actually starting servers, so just in case
     // we test on Travis etc with smaller boxes
@@ -277,7 +277,7 @@ describe('links', function() {
     var statusCodes = [];
 
     // loop
-    for(var i = 405; i < 601; i++) { 
+    for(var i = 405; i < 499; i++) { 
 
       if(i === 405) continue;
       statusCodes.push(i); 
