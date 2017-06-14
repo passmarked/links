@@ -1,6 +1,6 @@
 {
   "name": "@passmarked/links",
-  "version": "1.0.14",
+  "version": "1.0.16",
   "description": "Rules related to the links/assets on the page",
   "main": "index.js",
   "scripts": {
@@ -25,17 +25,17 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "async": "^2.1.4",
-    "cheerio": "^0.22.0",
+    "async": "^2.4.1",
+    "cheerio": "^1.0.0-rc.1",
     "passmarked": "*",
-    "request": "^2.79.0",
+    "request": "^2.81.0",
     "string": "^3.3.3",
     "underscore": "^1.8.3",
-    "when": "^3.7.7",
+    "when": "^3.7.8",
     "yslow": "^3.1.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
   }
 }
